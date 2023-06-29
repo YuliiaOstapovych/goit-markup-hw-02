@@ -9,7 +9,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
   background-color: var(--white);
   color: var(--slate);
 }
@@ -57,12 +56,13 @@ body {
 .header-list-link:focus {
   color: var(--ocean);
 }
-
+.address {
+  font-style: normal;
+}
 .address-list-link {
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .address-list-link:hover,
 .address-list-link:focus {
@@ -133,9 +133,10 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  font-weight: 500;
 }
 .team-subtitle {
   color: var(--navyblue);
@@ -204,6 +205,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 .programs-text {
