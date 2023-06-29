@@ -11,8 +11,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   background-color: var(--white);
+  color: var(--slate);
 }
-.visually-hidden {
+/**------visually-hidden
   position: absolute;
   width: 1px;
   height: 1px;
@@ -23,7 +24,8 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+*/
+
 .link {
   text-decoration: none;
 }
@@ -35,16 +37,16 @@ body {
 /**---------HERDER-------*/
 
 .header-logo {
-  color: var(--navyblue);
+  color: var(--iris-color);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .header-logo-accent {
-  color: var(--iris-color);
+  color: var(--navyblue);
 }
 .header-list-link {
   color: var(--navyblue);
@@ -53,17 +55,18 @@ body {
 }
 .header-list-link:hover,
 .header-list-link:focus {
-  color: var(--iris-color);
+  color: var(--ocean);
 }
 
 .address-list-link {
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .address-list-link:hover,
 .address-list-link:focus {
-  color: var(--iris-color);
+  color: var(--ocean);
 }
 
 /**---------HERO-------*/
@@ -87,10 +90,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-weight: 500;
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /**---------principles-------*/
@@ -100,6 +104,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .principles-item-text {
   color: var(--slate);
@@ -114,13 +119,15 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 /**---------team-------*/
-
+.team {
+  background-color: var(--cloud);
+}
 .team-title {
   color: var(--navyblue);
   text-align: center;
@@ -137,11 +144,15 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.team-item {
+  background-color: var(--white);
+}
 .team-item-text {
   color: var(--slate);
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
 /**---------footer-------*/
@@ -150,16 +161,16 @@ body {
   background-color: var(--navyblue);
 }
 .footer-logo {
-  color: var(--cloud);
+  color: var(--iris-color);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-logo-accent {
-  color: var(--iris-color);
+  color: var(--cloud);
 }
 .footer-text {
   color: var(--cloud);
@@ -170,14 +181,15 @@ body {
 /**---------portfolio-------*/
 
 .product-btn {
-  color: var(--iris);
+  color: var(--iris-color);
+  background-color: var(--cloud);
   text-align: center;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0, 04em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
